@@ -14,7 +14,7 @@ import { HeroService } from './hero.service';
         </li>
     </ul>
     <my-hero-detail [hero]="selectedHero" ></my-hero-detail>
-`,
+    `,
     styles: [`
   .selected {
     background-color: #CFD8DC !important;
@@ -63,7 +63,7 @@ import { HeroService } from './hero.service';
     margin-right: .8em;
     border-radius: 4px 0 0 4px;
   }
-`],
+    `],
     providers: [ HeroService ]
 })
 
