@@ -1,9 +1,9 @@
 import { InMemoryDbService } from 'angular2-in-memory-web-api';
 
-export class InMemoryDataService implments InMemoryDbService {
+export class InMemoryDataService implements InMemoryDbService {
     createDb() {
         let heroes = [
-            { id: 11, name: 'Mr. Nice' },
+            { id: 11, name: 'Mr. Nice Guy' },
             { id: 12, name: 'Narco' },
             { id: 13, name: 'Bombasto' },
             { id: 14, name: 'Celeritas' },
